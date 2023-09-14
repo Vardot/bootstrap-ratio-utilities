@@ -1,0 +1,30 @@
+//
+// Responsive Flip Ratio Utility.
+//
+
+$flipped-aspect-ratios: ();
+@each $key, $ratio in $aspect-ratios {
+  @if $key != '1x1' {
+    $index: str-index($key, 'x');
+    $ratio-1: unquote(str-slice($key, 0, $index - 1));
+    $ratio-2: unquote(str-slice($key, $index + 1));
+
+    $flipped-aspect-ratios: map-merge(
+      $flipped-aspect-ratios,
+      ($key: calc($ratio-1/$ratio-2 * 100% ))
+    );
+  }
+}
+
+// Loop over each breakpoint
+@each $breakpoint in map-keys($grid-breakpoints) {
+  // Generate media query if needed.
+  @include media-breakpoint-up($breakpoint) {
+    // Ony with media query sm and up.
+    @each $key, $flipped-ratio in $flipped-aspect-ratios {
+      .ratio-#{$key}-flip-#{$breakpoint} {
+        --#{$prefix}aspect-ratio: #{$flipped-ratio} ;
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-ratio-utilities",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bootstrap Ratio Utilities: Having a Responsive Ratio Utility, which needed for switching ratios for media brackpoints.",
   "author": "Vardot",
   "contributors": [
@@ -55,7 +55,8 @@
     "postcss-pxtorem": "^6.0.0",
     "postcss-url": "^10.1.3",
     "prettier": "^2.1.2",
-    "sass": "^1.44.0",
+    "sass": "^1.66.1",
+    "sass-true": "^7.0.0",
     "sass-loader": "^12.3.0",
     "sass-resources-loader": "^2.2.4",
     "stylelint": "^15.5.0",

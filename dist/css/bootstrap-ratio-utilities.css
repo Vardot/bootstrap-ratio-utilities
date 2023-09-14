@@ -1,5 +1,5 @@
 /*!
- * Bootstrap  v5.3.1 (https://getbootstrap.com/)
+ * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
@@ -91,6 +91,88 @@
 
   .ratio-21x9-xxl {
     --bs-aspect-ratio: 42.8571428571%;
+  }
+}
+
+.ratio-4x3-flip-xs {
+  --bs-aspect-ratio: calc(4 / 3 * 100%) ;
+}
+
+.ratio-16x9-flip-xs {
+  --bs-aspect-ratio: calc(16 / 9 * 100%) ;
+}
+
+.ratio-21x9-flip-xs {
+  --bs-aspect-ratio: calc(21 / 9 * 100%) ;
+}
+
+@media (min-width: 576px) {
+  .ratio-4x3-flip-sm {
+    --bs-aspect-ratio: calc(4 / 3 * 100%) ;
+  }
+
+  .ratio-16x9-flip-sm {
+    --bs-aspect-ratio: calc(16 / 9 * 100%) ;
+  }
+
+  .ratio-21x9-flip-sm {
+    --bs-aspect-ratio: calc(21 / 9 * 100%) ;
+  }
+}
+
+@media (min-width: 768px) {
+  .ratio-4x3-flip-md {
+    --bs-aspect-ratio: calc(4 / 3 * 100%) ;
+  }
+
+  .ratio-16x9-flip-md {
+    --bs-aspect-ratio: calc(16 / 9 * 100%) ;
+  }
+
+  .ratio-21x9-flip-md {
+    --bs-aspect-ratio: calc(21 / 9 * 100%) ;
+  }
+}
+
+@media (min-width: 992px) {
+  .ratio-4x3-flip-lg {
+    --bs-aspect-ratio: calc(4 / 3 * 100%) ;
+  }
+
+  .ratio-16x9-flip-lg {
+    --bs-aspect-ratio: calc(16 / 9 * 100%) ;
+  }
+
+  .ratio-21x9-flip-lg {
+    --bs-aspect-ratio: calc(21 / 9 * 100%) ;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ratio-4x3-flip-xl {
+    --bs-aspect-ratio: calc(4 / 3 * 100%) ;
+  }
+
+  .ratio-16x9-flip-xl {
+    --bs-aspect-ratio: calc(16 / 9 * 100%) ;
+  }
+
+  .ratio-21x9-flip-xl {
+    --bs-aspect-ratio: calc(21 / 9 * 100%) ;
+  }
+}
+
+@media (min-width: 1400px) {
+  .ratio-4x3-flip-xxl {
+    --bs-aspect-ratio: calc(4 / 3 * 100%) ;
+  }
+
+  .ratio-16x9-flip-xxl {
+    --bs-aspect-ratio: calc(16 / 9 * 100%) ;
+  }
+
+  .ratio-21x9-flip-xxl {
+    --bs-aspect-ratio: calc(21 / 9 * 100%) ;
   }
 }
 
