@@ -26,5 +26,5 @@ or `custom_theme.base.scss`
 // -----------------------------------------------------------------------------
 
 // Responsive ratio utility.
-@import "../../node_modules/bootstrap-ratio-utilities/scss/responsive-ratio.scss";
+@import "../node_modules/bootstrap-ratio-utilities/utilities/scss/responsive-ratio.scss";
 ```
