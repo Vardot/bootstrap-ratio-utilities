@@ -43,7 +43,8 @@ or `custom_theme.base.scss`
 </div>
 ```
 
-**Example #2** : 
+**Example #2**:  With Remote Videos
+
 In case of having `21x9` in the `$aspect-ratios` aspect ratios array
 ```
 <div class="varbase-video-player ratio ratio-4x3 ratio-16x9-sm ratio-21x9-xxl">
@@ -51,7 +52,8 @@ In case of having `21x9` in the `$aspect-ratios` aspect ratios array
 </div>
 ```
 
-**Example #3** : with images
+**Example #3**: with images
+
 In case of having `21x9` in the `$aspect-ratios` aspect ratios array
 ```
 <div class="field field--name-field-media-image field--type-image ratio ratio-4x3 ratio-16x9-sm ratio-21x9-xxl">
