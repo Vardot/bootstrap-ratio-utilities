@@ -1,9 +1,9 @@
 # Bootstrap Ratio Utilities
 
 > ### [Bootstrap ~5.3.0 Documentation on Ratios](https://getbootstrap.com/docs/5.3/helpers/ratio/#aspect-ratios)
-> [Aspect ratios](https://getbootstrap.com/docs/5.3/helpers/ratio/#aspect-ratios)
-> [Custom ratios](https://getbootstrap.com/docs/5.3/helpers/ratio/#custom-ratios)
-> [Sass maps for `$aspect-ratios`](https://getbootstrap.com/docs/5.3/helpers/ratio/#sass-maps)
+> * [Aspect ratios](https://getbootstrap.com/docs/5.3/helpers/ratio/#aspect-ratios)
+> * [Custom ratios](https://getbootstrap.com/docs/5.3/helpers/ratio/#custom-ratios)
+> * [Sass maps for `$aspect-ratios`](https://getbootstrap.com/docs/5.3/helpers/ratio/#sass-maps)
 
 Having a Responsive Ratio Utility, which needed for switching ratios for media brackpoints.
 
@@ -43,7 +43,7 @@ or `custom_theme.base.scss`
 </div>
 ```
 
-**Example #2**
+**Example #2** : 
 In case of having `21x9` in the `$aspect-ratios` aspect ratios array
 ```
 <div class="varbase-video-player ratio ratio-4x3 ratio-16x9-sm ratio-21x9-xxl">
@@ -51,7 +51,8 @@ In case of having `21x9` in the `$aspect-ratios` aspect ratios array
 </div>
 ```
 
-**Example #3**
+**Example #3** : with images
+In case of having `21x9` in the `$aspect-ratios` aspect ratios array
 ```
 <div class="field field--name-field-media-image field--type-image ratio ratio-4x3 ratio-16x9-sm ratio-21x9-xxl">
   <img src="https://raw.githubusercontent.com/Vardot/varbase_media_demo/10.0.0/content/file/coworking-1.jpg">
