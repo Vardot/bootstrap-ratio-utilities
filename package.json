@@ -1,13 +1,23 @@
 {
   "name": "bootstrap-ratio-utilities",
   "version": "1.0.0",
-  "private": true,
   "description": "Bootstrap Ratio Utilities: Having a Responsive Ratio Utility, which needed for switching ratios for media brackpoints.",
   "author": "Vardot",
   "contributors": [
     "Rajab Natshah"
   ],
   "license": "MIT",
+  "main": "webpack.config.js",
+  "keywords": [
+    "Bootstrap",
+    "Bootstrap 5",
+    "bootstrap utilities",
+    "bootstrap utility",
+    "Ratio Utilities",
+    "Ratio utility",
+    "Responsive Ratio Utility",
+    "Aspect Ratio"
+  ],
   "engines": {
     "npm": ">= 6.0",
     "yarn": ">= 1.6",
@@ -17,7 +27,7 @@
     "build": "webpack --progress --config webpack.config.js",
     "lint:css": "stylelint \"**/*.css\""
   },
-  "devDependencies": {
+  "dependencies": {
     "@popperjs/core": "~2",
     "bootstrap": "~5.3.0",
     "autoprefixer": "^10.4.0",
@@ -70,5 +80,13 @@
     "last 1 ChromeAndroid version",
     "last 1 Samsung version",
     "Firefox ESR"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vardot/bootstrap-ratio-utilities.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vardot/bootstrap-ratio-utilities/issues"
+  },
+  "homepage": "https://github.com/Vardot/bootstrap-ratio-utilities#readme"
 }
