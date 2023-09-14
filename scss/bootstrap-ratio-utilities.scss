@@ -1,0 +1,18 @@
+// Example to how to add the Bootstrap Ratio Utilities
+// -----------------------------------------------------------------------------
+
+@import "../node_modules/bootstrap/scss/mixins/banner";
+@include bsBanner("");
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/utilities";
+
+// List of all Bootstrap Ratio Utilities.
+// -------------------------------------------
+
+// Responsive ratio utility.
+@import "../utilities/scss/responsive-ratio.scss";
